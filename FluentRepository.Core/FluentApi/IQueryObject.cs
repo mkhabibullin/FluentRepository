@@ -2,7 +2,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace FluentRepository.Core
+namespace FluentRepository.Core.FluentApi
 {
     public interface IQueryObject<TEntity> where TEntity : IEntity
     {

@@ -1,5 +1,6 @@
 ﻿using FluentRepository.Core;
 using FluentRepository.Core.Entity;
+using FluentRepository.Core.FluentApi;
 using FluentRepository.Core.UnitOfWork;
 using LinqKit;
 using System;
@@ -10,7 +11,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace FluentRepository.EF
+namespace FluentRepository.EF6
 {
     public class Repository<TEntity> : IRepositoryAsync<TEntity> where TEntity : class, IEntity
     {
@@ -45,14 +46,6 @@ namespace FluentRepository.EF
         }
 
         public virtual void InsertRange(IEnumerable<TEntity> entities)
-        {
-            foreach (var entity in entities)
-            {
-                Insert(entity);
-            }
-        }
-
-        public virtual void InsertGraphRange(IEnumerable<TEntity> entities)
         {
             _dbSet.AddRange(entities);
         }

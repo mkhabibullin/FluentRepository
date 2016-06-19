@@ -1,10 +1,10 @@
-﻿using FluentRepository.Core;
-using FluentRepository.Core.Entity;
+﻿using FluentRepository.Core.Entity;
+using FluentRepository.Core.FluentApi;
 using LinqKit;
 using System;
 using System.Linq.Expressions;
 
-namespace FluentRepository.EF
+namespace FluentRepository.EF6
 {
     public abstract class QueryObject<TEntity> : IQueryObject<TEntity> where TEntity : IEntity
     {

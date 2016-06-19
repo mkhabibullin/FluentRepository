@@ -1,12 +1,12 @@
-﻿using FluentRepository.Core;
-using FluentRepository.Core.Entity;
+﻿using FluentRepository.Core.Entity;
+using FluentRepository.Core.FluentApi;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace FluentRepository.EF
+namespace FluentRepository.EF6
 {
     public sealed class QueryFluent<TEntity> : IQueryFluent<TEntity> where TEntity : class, IEntity
     {

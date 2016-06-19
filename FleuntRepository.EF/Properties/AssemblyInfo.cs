@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FluentRepository.EF")]
-[assembly: AssemblyDescription("Fluent Repository pattern")]
+[assembly: AssemblyTitle("FluentRepository.EF6")]
+[assembly: AssemblyDescription("Realization of FluentRepository.Core with EntityFramework 6")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("No company")]
-[assembly: AssemblyProduct("FluentRepository.EF")]
+[assembly: AssemblyProduct("FluentRepository.EF6")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]

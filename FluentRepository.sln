@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentRepository.EF", "FleuntRepository.EF\FluentRepository.EF.csproj", "{E8A22912-2D2E-49B8-B3C4-8FEBAD8C5557}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentRepository.EF6", "FleuntRepository.EF\FluentRepository.EF6.csproj", "{E8A22912-2D2E-49B8-B3C4-8FEBAD8C5557}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentRepository.Core", "FluentRepository.Core\FluentRepository.Core.csproj", "{17F5EEB2-78A2-45DE-8B72-7F9DEC03365D}"
 EndProject

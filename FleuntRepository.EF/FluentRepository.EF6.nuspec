@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>KhabibullinMarat</authors>
+    <owners>KhabibullinMarat</owners>
+    <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/mkhabibullin/FluentRepository</projectUrl>
+    <iconUrl>https://www.nuget.org/Content/Images/packageDefaultIcon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Entity Framework 6 Fluent Repository pattern</description>
+    <releaseNotes>Minor changes.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Repository, EF Repository, Repository pattern, Entity Framework Repository</tags>
+  </metadata>
+</package>
